@@ -1,0 +1,83 @@
+.green {
+  color: green;
+  font-style: italic;
+  font-size: 30px;
+}
+.center_green {
+  text-align: center;
+  justify-content: center;
+  color: green;
+  font-style: italic;
+  font-size: 30px;
+}
+#center {
+  display: grid;
+  place-items: center;
+}
+.red {
+  color: tomato; /* tomato is better than red */
+}
+.podkresleno {
+  text-decoration: underline;
+}
+.black {
+  color: black;
+  font-style: italic;
+}
+#menu {
+  position: fixed;
+  top: 0;
+  padding: 1%;
+  background-color: black;
+  transition: 0.5s;
+  z-index: 5;
+}
+#menu a {
+  color: rgb(219, 219, 219);
+  text-decoration: none !important;
+  font-size: large;
+  font-weight: 500;
+}
+#menubt {
+  border-radius: 1em;
+  height: 2em;
+  display: block;
+  fill: currentcolor;
+  left: 0;
+}
+
+.fontext {
+  background-color: white;
+  width: 70%;
+  margin: auto;
+  padding: 8px;
+}
+/* BackGround */
+#bgz {
+  background-image: url(images/task/fonzalik.jpg);
+  background-size: cover;
+}
+#bgt {
+  background-image: url(images/task/fontrasport.jpg);
+  background-size: cover;
+}
+#bgs {
+  background-image: url(images/task/fonsimvolika.jpg);
+  background-size: cover;
+}
+#bgn {
+  background-image: url(images/task/fonnazva.jpg);
+  background-size: cover;
+}
+#bgnl {
+  background-image: url(images/task/fonnaselennia.jpg);
+  background-size: cover;
+}
+#bgk {
+  background-image: url(images/task/fonklimat.jpg);
+  background-size: cover;
+}
+#bga {
+  background-image: url(images/task/fonanketa.jpg);
+  background-size: cover;
+}
